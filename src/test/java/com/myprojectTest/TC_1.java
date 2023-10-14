@@ -12,9 +12,9 @@ public class TC_1 {
 		WebDriver driver = new FirefoxDriver ();
 		driver.manage().window().maximize();
 		
-		driver.get("https://google.com");
+		driver.get("https://github.com");
 		
-		Assert.assertEquals(driver.getTitle(),"Google");
+		Assert.assertEquals(driver.getTitle(),"GitHub");
 		driver.close();
 	}
 
